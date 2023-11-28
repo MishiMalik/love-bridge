@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  
+
+
+
+.table-card{
+    background: #1e0628;
+    border: 1px solid #8b42aa;
+    border-radius: 8px;
+    display: block;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+
+.table-h-r{
+    background-color: #8b42aa;
+}
+.table-h-r th{
+    padding: 10px 5px !important;
+}
+.table-heading{
+    color: white;
+   
+}
+.table-row td{
+    text-align: center;
+    padding: 10px 5px !important;
+    color: #d6d2d2 !important;
+}
+.notice-text{
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    color: rgb(189, 186, 186);
+}
+
+.notice-text b{
+    font-size: 14px;
+    font-weight: 600 !important;
+    font-family: sans-serif;
+}
+  @media only screen and (max-width:678px){
+    .table-card{
+        width: 750px !important;
+    }
+    .table-card-div{
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .table-card-div::-webkit-scrollbar {
+        height: 8px;
+      }
+       
+     
+       
+      .table-card-div::-webkit-scrollbar-thumb {
+        background-color: transparent;
+        background-color: #8b42aa;
+        border-radius: 10px;
+      }
+  }
+    </style>
+</head>
+<body>
+    <div class="w-full pb-24">
+        <h1 class="text-[28px] font-semibold ">FIXED APY STAKING</h1>
+           
+           <div class="md:px-10 table-card-div">
+            <div 
+            class=" table-card ">
+            <table class="table apy-table w-full">
+                <thead>
+                    <tr class="table-h-r">
+                        <th><span class="table-heading">30 days </span></th>
+                        <th><span class="table-heading">90 days </span></th>
+                        <th><span class="table-heading">180 days </span></th>
+                        <th><span class="table-heading">360 days </span></th>
+                        <th><span class="table-heading">720 days </span></th>
+                        <th><span class="table-heading">1080 days </span></th>
+                        <th><span class="table-heading">1440 days </span></th>
+                        <th><span class="table-heading">1800 days </span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-row">
+                        <td scope="row">4% APY </td>
+                        <td>7% APY </td>
+                        <td>15% APY </td>
+                        <td>34% APY </td>
+                        <td>53% APY </td>
+                        <td>67% APY </td>
+                        <td>75% APY </td>
+                        <td>84% APY </td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </div>
+           </div>
+           <div class="md:px-10">
+            <p class="mb-0 pb-0 notice-text">
+                <b>MPORTANT NOTICE (MUST READ):</b>
+                LOVE Staking offers exceptionally high fixed APY rewards for locking your LOVE tokens
+                for a specified period. However, it's important to note that such high rewards come hand
+                in hand with penalties. Substantial penalties apply for unstaking before the contract
+                matures. All penalties incurred from emergency unstaking are automatically added back to
+                the reward pool. To learn more about how penalties are calculated, please
+                follow this link.
+            </p>
+        </div>
+
+    </div>
+</body>
+</html>
