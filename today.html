@@ -286,10 +286,10 @@
     }
 
     .header-cards-header img {
-      height: 35px;
-      width: 35px;
+      height: 22px;
+      width: 22px;
       object-fit: contain;
-      margin-top: -10px;
+      margin-top: -1px;
     }
 
     .header-cards-header h3 {
@@ -332,7 +332,7 @@
       border: none;
       height: 37px;
       width: 40px;
-      margin-top: -12px;
+      margin-top: -7px;
     }
 
     .header-card-body {
@@ -390,6 +390,12 @@
       margin-top: -12px;
       border: 1px solid rgb(112, 110, 110);
       margin-right: 7px;
+    }
+    @media only screen and (max-width:1200px){
+      .header-cards{
+        padding: 15px !important;
+        padding-top: 20px !important;
+      }
     }
   </style>
 </head>
@@ -672,13 +678,22 @@
           <div class="row justify-content-center ">
             <div class="col-lg-4 mb-3">
               <div class="header-cards h-100">
-                <div class="d-flex justify-content-between align-items-center border-new  pb-2 ">
+                <div class="d-flex justify-content-between align-items-center border-new  pb-3">
                   <div class="d-flex align-items-center w-100 header-cards-header">
-                    <img src="assets2/images/icons/PulseChain.svg" alt="PulseChain Network" class="" />
+                  
+                     <img style="height: 30px; width: 30px; "
+                        src="assets2/images/loader.png" alt="" class="" />
+                        <div class="pl-1">
+                          <h3 class=" mb-0 pb-0"> LOVE </h3>
+                        </div>
+                        <div class="px-2">
+                          <h3 class=" mb-0 pb-0">/ 
+                           
+                         </h3>
+                        </div>
+                        <img src="assets2/images/icons/PulseChain.svg" alt="PulseChain Network" class="" />
                     <div class="pl-2">
-                      <h3 class=" mb-0 pb-0"> PLS <img style="height: 30px; width: 30px; margin-left: -5px;"
-                        src="assets2/images/loader.png" alt="" class="" /></h3>
-                      <p class="pb-0 mb-0"> Pulse </p>
+                      <h3 class=" mb-0 pb-0"> PLS </h3>
                     </div>
                   </div>
                   <button class="btn-n"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -689,7 +704,7 @@
                     </svg></button>
                 </div>
 
-                <div class="d-flex justify-content-between align-items-center header-card-body border-new">
+                <div class="d-flex justify-content-between align-items-center header-card-body border-new ">
                   <div>
                     <h3>
                       <span>$</span>0.00083737
@@ -745,23 +760,50 @@
                     <p class="mb-0 pb-0">0.401%</p>
                   </div>
                 </div>
-
-                <div class="d-flex justify-content-center align-items-center header-card-body text-center">
-                  <div class="text-center">
+<!-- first -->
+<div class="d-flex justify-content-xl-between justify-content-center flex-xl-row flex-column header-card-body text-center mt-2 align-items-center">
+  <div class="text-center ">
+    <p class="mb-0 pb-0 text-center w-100">Liquidity: 1.68T PLSX</p>
+  </div>
+  <div class="mt-xl-0 mt-3">
+    <a href="https://app.uniswap.org/#/swap?outputCurrency=0xb55ee890426341fe45ee6dc788d2d93d25b59063&chain=ethereum"
+      target="_blank" rel="noopener noreferrer"
+      class="btn btn-md btn-grad btn-round menu-link nav-link buy-love">Buy LOVE<img width="29"
+        src="assets2/images/loader.png" alt="" class="ml-2" /></a>
+  </div>
+</div>
+                <!-- second -->
+                <!-- <div class="d-flex justify-content-center align-items-center header-card-body text-center mt-2">
+                  <div class="text-center mt-2">
                     <p class="mb-0 pb-0 text-center w-100">Liquidity: 1.68T PLSX</p>
                   </div>
                 </div>
-
+                <div class="d-flex justify-content-center align-items-center header-card-body text-center">
+                  <a href="https://app.uniswap.org/#/swap?outputCurrency=0xb55ee890426341fe45ee6dc788d2d93d25b59063&chain=ethereum"
+                  target="_blank" rel="noopener noreferrer"
+                  class="btn btn-md btn-grad btn-round menu-link nav-link buy-love">Buy LOVE<img width="29"
+                    src="assets2/images/loader.png" alt="" class="ml-2" /></a>
+                </div> -->
               </div>
             </div>
             <div class="col-lg-4 mb-3">
               <div class="header-cards h-100">
-                <div class="d-flex justify-content-between align-items-center border-new  pb-2 ">
+                <div class="d-flex justify-content-between align-items-center border-new  pb-3">
                   <div class="d-flex align-items-center w-100 header-cards-header">
-                    <img src="https://gopulse.com/img/coins/INC.svg" alt="PulseChain Network" class="" />
+                  
+                     <img style="height: 30px; width: 30px; "
+                        src="assets2/images/loader.png" alt="" class="" />
+                        <div class="pl-1">
+                          <h3 class=" mb-0 pb-0"> LOVE </h3>
+                        </div>
+                        <div class="px-2">
+                          <h3 class=" mb-0 pb-0">/ 
+                           
+                         </h3>
+                        </div>
+                        <img src="https://gopulse.com/img/coins/INC.svg" alt="PulseChain Network" class="" />
                     <div class="pl-2">
                       <h3 class=" mb-0 pb-0"> INC </h3>
-                      <p class="pb-0 mb-0"> Incentive </p>
                     </div>
                   </div>
                   <button class="btn-n"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -771,7 +813,7 @@
                       <path d="m19 9-5 5-4-4-3 3"></path>
                     </svg></button>
                 </div>
-
+          
                 <div class="d-flex justify-content-between align-items-center header-card-body border-new">
                   <div>
                     <h3>
@@ -829,9 +871,15 @@
                   </div>
                 </div>
 
-                <div class="d-flex justify-content-center align-items-center header-card-body text-center">
-                  <div class="text-center">
+                <div class="d-flex justify-content-xl-between justify-content-center flex-xl-row flex-column  align-items-center header-card-body text-center mt-2">
+                  <div class="text-center ">
                     <p class="mb-0 pb-0 text-center w-100">Liquidity: 1.68T PLSX</p>
+                  </div>
+                  <div class="mt-xl-0 mt-3">
+                    <a href="https://app.uniswap.org/#/swap?outputCurrency=0xb55ee890426341fe45ee6dc788d2d93d25b59063&chain=ethereum"
+                      target="_blank" rel="noopener noreferrer"
+                      class="btn btn-md btn-grad btn-round menu-link nav-link buy-love">Buy LOVE<img width="29"
+                        src="assets2/images/loader.png" alt="" class="ml-2" /></a>
                   </div>
                 </div>
 
@@ -839,29 +887,30 @@
             </div>
             <div class="col-lg-4 mb-3">
               <div class="header-cards h-100">
-                <div class="d-flex justify-content-between align-items-center border-new  pb-2 ">
+                <div class="d-flex justify-content-between align-items-center border-new  pb-3">
                   <div class="d-flex align-items-center w-100 header-cards-header">
-                    <img src="https://gopulse.com/img/coins/HEX.svg" alt="PulseChain Network" class="" />
+                  
+                     <img style="height: 30px; width: 30px; "
+                        src="assets2/images/loader.png" alt="" class="" />
+                        <div class="pl-1">
+                          <h3 class=" mb-0 pb-0"> LOVE </h3>
+                        </div>
+                        <div class="px-2">
+                          <h3 class=" mb-0 pb-0">/ 
+                           
+                         </h3>
+                        </div>
+                        <img src="https://gopulse.com/img/coins/HEX.svg" alt="PulseChain Network" class="" />
                     <div class="pl-2">
-                      <h3 class=" mb-0 pb-0">HEX</h3>
-                      <p class="pb-0 mb-0"> Incentive </p>
+                      <h3 class=" mb-0 pb-0"> HEX </h3>
                     </div>
                   </div>
-                  <a draggable="false" class="btn-nn secondary !px-0 w-[30px]" href=""><svg
-                      xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                      class="lucide lucide-wallet">
-                      <path d="M21 12V7H5a2 2 0 0 1 0-4h14v4"></path>
-                      <path d="M3 5v14a2 2 0 0 0 2 2h16v-5"></path>
-                      <path d="M18 12a2 2 0 0 0 0 4h4v-4Z"></path>
-                    </svg></a>
                   <button class="btn-n"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                       viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                       stroke-linejoin="round" class="lucide lucide-line-chart">
                       <path d="M3 3v18h18"></path>
                       <path d="m19 9-5 5-4-4-3 3"></path>
-                    </svg>
-                  </button>
+                    </svg></button>
                 </div>
 
                 <div class="d-flex justify-content-between align-items-center header-card-body border-new">
@@ -914,9 +963,15 @@
                   </div>
                 </div>
 
-                <div class="d-flex justify-content-center align-items-center header-card-body text-center">
-                  <div class="text-center">
+                <div class="d-flex justify-content-xl-between justify-content-center flex-xl-row flex-column  align-items-center header-card-body text-center mt-2">
+                  <div class="text-center ">
                     <p class="mb-0 pb-0 text-center w-100">Liquidity: 1.68T PLSX</p>
+                  </div>
+                  <div class="mt-xl-0 mt-3">
+                    <a href="https://app.uniswap.org/#/swap?outputCurrency=0xb55ee890426341fe45ee6dc788d2d93d25b59063&chain=ethereum"
+                      target="_blank" rel="noopener noreferrer"
+                      class="btn btn-md btn-grad btn-round menu-link nav-link buy-love">Buy LOVE<img width="29"
+                        src="assets2/images/loader.png" alt="" class="ml-2" /></a>
                   </div>
                 </div>
 
